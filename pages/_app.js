@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <script src="https://app2.ssr.aws.cagatay.dev/web/remoteEntry.js" />
+        <script src="https://app2.ssr.cagatay.dev/web/remoteEntry.js" />
       </Head>
       <Component {...pageProps} />
     </>
