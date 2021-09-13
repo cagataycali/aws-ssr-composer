@@ -3,7 +3,6 @@ const { NodeModuleFederation } = require("@telenko/node-mf");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const path = require("path");
 
-
 module.exports = {
   future: { webpack5: true },
   webpack: (config, options) => {
