@@ -10,6 +10,7 @@ module.exports = {
     const mfConf = {
       remotes: {
         app2: isServer
+          // ? "app2@http://localhost:3002/node/remoteEntry.js"
           ? "app2@https://app2.ssr.cagatay.dev/node/remoteEntry.js"
           : //This is a hack (I cannot run successfully MF in client-side with NextJS and React, maybe doing smth wrong)
           {
